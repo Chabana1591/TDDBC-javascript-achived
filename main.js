@@ -1,3 +1,3 @@
-const Sample = require("./js/sample");
+const Sample = require("./lib/sample");
 const sample = new Sample();
 sample.say();
