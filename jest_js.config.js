@@ -2,7 +2,8 @@
 // https://jestjs.io/docs/en/configuration.html
 
 module.exports = {
+  verbose: true,
   testEnvironment: "node",
   testRegex: ".*_test\\.js$",
-  moduleFileExtensions: ["js", "json", "jsx", "node", "mjs"]
+  moduleFileExtensions: ["js", "json", "jsx", "node", "mjs"],
 };

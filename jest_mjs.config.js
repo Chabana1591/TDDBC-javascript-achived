@@ -2,11 +2,12 @@
 // https://jestjs.io/docs/en/configuration.html
 
 module.exports = {
+  verbose: true,
   testEnvironment: "node",
   testRegex: ".*_test\\.mjs$",
   transform: {
-    ".*\\.mjs$": "esm"
+    ".*\\.mjs$": "babel-jest",
   },
   transformIgnorePatterns: ["/node_modules/"],
-  moduleFileExtensions: ["js", "json", "jsx", "node", "mjs"]
+  moduleFileExtensions: ["js", "json", "jsx", "node", "mjs"],
 };
