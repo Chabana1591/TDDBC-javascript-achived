@@ -1,14 +1,14 @@
 {
-  "name": "javascript-jest",
-  "description": "skeleton for Node.js + Jest users.",
+  "name": "tddbc_javascript",
+  "description": "Node.js + Jest for TDDBC Sendai X.",
   "version": "0.1.0",
   "author": {
     "name": "TDDBC and other contributors"
   },
   "bugs": {
-    "url": "https://github.com/tddbc/javascript-jest/issues"
+    "url": "https://github.com/Chabana1591/TDDBC-javascript/issues"
   },
-  "homepage": "https://github.com/tddbc/javascript-jest",
+  "homepage": "https://github.com/Chabana1591/TDDBC-javascript",
   "keywords": [
     "TDDBC",
     "jest",
