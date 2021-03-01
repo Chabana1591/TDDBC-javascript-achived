@@ -4,6 +4,6 @@
 module.exports = {
   verbose: true,
   testEnvironment: "node",
-  testRegex: ".*_test\\.js$",
+  testRegex: ".*[._]test\\.js$",
   moduleFileExtensions: ["js", "json", "jsx", "node", "mjs"],
 };

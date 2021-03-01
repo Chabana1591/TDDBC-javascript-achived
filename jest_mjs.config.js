@@ -4,7 +4,7 @@
 module.exports = {
   verbose: true,
   testEnvironment: "node",
-  testRegex: ".*_test\\.mjs$",
+  testRegex: ".*[._]test\\.mjs$",
   transform: {
     ".*\\.mjs$": "babel-jest",
   },
